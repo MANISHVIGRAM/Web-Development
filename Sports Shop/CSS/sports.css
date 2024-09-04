@@ -1,0 +1,167 @@
+.Header
+{
+    height: 100px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(162, 196, 229);
+}
+.logo
+{
+    float: left;
+}
+.name
+{
+    height: 100px;
+    width: 800px;
+}
+.a
+{
+    position: relative;
+    top: 20px;
+    left: 300px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 50px;
+}
+.menu
+{
+    height: 50px;
+    width: 998px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black ;
+    padding: 1px;
+}
+.menu ul li
+{
+    display:inline;
+    padding: 55px;
+}
+.menu ul a{
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    color:whitesmoke;
+}
+.footer
+{
+    height: 30px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.foot{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.para
+{
+    height: 700px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(162, 196, 229);
+}
+.para1
+{
+    height:210px;
+    width:1000px;
+    float:left;
+    padding-left: 5px;
+}
+.para2
+{
+    /*text-align: center;*/
+    height:190px;
+    width:1000px;
+    float:left;
+    padding-left: 5px;
+
+}
+.para3
+{
+    /*text-align: center;*/
+    height:140px;
+    width:1000px;
+    float:left;
+    padding-left: 5px;
+}
+.slogan
+{
+    padding-top: 25px;
+    height:100px;
+    width:1000px;
+    float: left;
+}
+.about
+{
+    height: 700px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(162, 196, 229);
+}
+.img1
+{
+    float: left;
+}
+.img2
+{
+    float: left;
+}
+.img3
+{
+    float: right;
+}
+.img4
+{
+    float: left;
+}
+.img5
+{
+    float: left;
+}
+.img6
+{
+    float: right;
+}
+.table
+{
+    height: 132px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(162, 196, 229);
+}
+table
+{
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+.contact
+{
+    height: 500px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(162, 196, 229);
+}
+.address
+{
+    float: left;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+}
+.phone
+{
+    float: right;
+    text-align: center;
+    height: 100px;
+    width: 500px;
+}

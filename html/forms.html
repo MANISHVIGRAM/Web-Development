@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body>
+     <form action="formsResult.html" method="get">
+        <div>
+            <label for="Username">Enter the Username: </label>
+            <input name="Username" type="text" id="Username" required maxlength="25">
+        </div>
+        
+        <div>
+            <label for="Password">Enter the Password: </label>
+            <input name="Password" type="Password" id="Password" required minlength="8">
+        </div>
+        
+        <div>
+            <label for="Email">Enter your Email: </label>
+            <input type="tel" name="Email" id="Email">
+        </div>
+
+        <div>
+            <label for="Dateofbirth">Year of Birth: </label>
+            <input name="Date of Birth" id="Dateofbirth" type="date" maxlength="4" min="2000-01-01">
+        </div>
+
+        <div>
+            <label for="link">Enter LinkedIn profile: </label>
+            <input type="url" name="link" id="link">
+        </div>
+
+        <div>
+            <label for="About">About: </label>
+            <textarea name="About" id="About" cols="10" rows="5"></textarea>
+        </div>
+        <div>
+            <input type="checkbox" name="policy">
+            <label for="policy">Read our terms and conditions</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="Gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+        </div>
+        
+        <div>
+            <input type="radio" name="Gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+        </div>
+        
+        <div>
+            <select name="State" id="State">
+                <option value="Tamil Nadu">Tamil  Nadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Delhi">Delhi</option>
+            </select>
+        </div>
+        
+        <div>
+            <input type="file" name="" id="">
+        </div>
+        <button type="Log in">LOG IN</button>
+        <button type="Reset">RESET</button>
+    </form>
+</body>
+</html>

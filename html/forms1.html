@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms1</title>
+</head>
+<body>
+    <form action="formsResult.html">
+        <div>
+            <input type="text" name="Username" id="Username" placeholder="Username" required>
+        </div>
+
+        <div>
+            <input type="password" name="password" id="password" min="8" placeholder="Password">
+        </div>
+
+        <div>
+            <input type="email" name="email" id="email" placeholder="Email">
+        </div>
+
+        <div>
+            <input type="date" name="date" id="date" min="2000-01-01" aria-multiselectable="2020-12-30" placeholder="Date od Birth">
+        </div>
+
+        <div>
+            <input type="url" name="link" id="link" placeholder="Enter the URL">
+        </div>
+
+        <div>
+            <textarea name="about" id="about" placeholder="About"></textarea>
+        </div>
+
+        <div>
+            <input type="checkbox" name="policy" id="policy">
+            <label for="policy"> Read our terms and conditions</label>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="Male" value="Male">
+            <label for="Male">Male</label>
+        </div>
+
+        <div>
+            <input type="radio" name="gender" id="Female" value="Female">
+            <label for="Female">Female</label>
+        </div>
+
+        <div>
+            <select name="state" id="state">
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Dehli">Delhi</option>
+            </select>
+        </div>
+
+        <div>
+            <input type="file">
+        </div>
+
+        <button type="Log in">LOG IN</button>
+        <button type="reset">RESET</button>
+    </form>
+</body>
+</html>

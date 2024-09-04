@@ -1,0 +1,17 @@
+body{
+    background-image: url(/Images/netflix.webp);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.signup{
+    width: 500px;
+    margin: 250px auto;
+    background-color: rgba(0,0,0,.5);
+    color:grey;
+    padding: 10px 20px 30px;
+}
+h3{
+    text-align: center;
+}
+.signup label{
+    display: block;
+}

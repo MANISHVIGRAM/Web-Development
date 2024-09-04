@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.Container
+{
+    background-color: rgb(155, 196, 222);
+    height: 400px;
+    width: 450px;
+    padding: 100px;
+    border-radius: 25px;
+    box-shadow: 12px 12px 5px rgb(98, 98, 98);
+
+}
+.Brandlogo
+{
+    margin: auto;
+    border-radius: 50px;
+}
+.Inputs
+{
+    text-align: left;
+}
+label, input, button
+{
+    display: block;
+    width: 100%;
+    border: none;
+}
+label
+{
+    margin-bottom: 10px;
+}
+input
+{
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 30px;
+    box-shadow: 5px 5px 5px rgb(98, 98, 98);
+}
+button
+{
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(76, 75, 75);
+
+}

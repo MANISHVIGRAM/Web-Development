@@ -1,0 +1,20 @@
+ul{
+    list-style-type: square;
+}
+li{
+    margin: 10px;
+}
+table{
+    width: 300px;
+    margin: auto;
+    border-spacing:opx;
+    border-collapse: collapse;
+}
+th{
+    text-align: left;
+    border-bottom: 2px solid black;
+}
+td,th{
+    padding: 10px;
+    border: 1px solid black;
+}
